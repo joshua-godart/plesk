@@ -1,0 +1,117 @@
+section{
+    display: inline-block;
+    width: 20%;
+    height: 200vh;
+}
+
+section.section_gauche{
+    vertical-align: top;
+    background-color: #383e42;
+    padding: 40px;
+    color: #fff;
+    font-family: Bahnschrift SemiBold;
+}
+
+section.section_droite{
+    width: 60%;
+    padding-left: 40px;
+    font-family: Bahnschrift SemiBold;
+}
+
+/* section.section_droite div{
+    padding-left: 50px;
+} */
+
+article.langues{
+    padding-top: 10px;
+}
+
+article.competences{
+    padding-top: 10px;
+}
+
+article.atouts{
+    padding-top: 10px;
+}
+
+article.centre_interet{
+    padding-top: 10px;
+}
+
+p.details{
+    padding-left: 20px;
+}
+
+
+section.section_gauche h5{
+    padding-left:20px ;
+}
+
+article.langues p{
+    padding-left: 20px;
+}
+
+div.mail_box{
+    display: flex;
+    padding: 5;
+}
+
+div.phone_box{
+    display: flex;
+    padding: 5;
+}
+
+div.adress_box{
+    display: flex;
+    padding: 5;
+}
+
+div.permis_box{
+    display: flex;
+    padding: 10;
+}
+div.infos{
+    padding-left: 10px;
+}
+
+h3.titres{
+    color: #2C9EF2;
+    font-size: 25px;
+    font-family: Bahnschrift SemiBold;
+}
+
+p{
+    font-family: Bahnschrift;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+article.langues div{
+    padding-left: 20px;
+}
+
+article.langues div.infos{
+    font-family: Bahnschrift SemiLight;
+}
+
+article.competences div{
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+article.atouts div{
+    padding-left: 20px;
+}
+
+article.centre_interet div{
+    padding-left: 20px;
+}

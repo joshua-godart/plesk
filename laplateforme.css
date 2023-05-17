@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+/* <<<<<<<<</style pour le header/>>>>>>>>> */
+/* taille et couleur de fond du header */
+header{
+    /* width: 100%; */
+    background-color: black;
+    /* background-image: url(img/red_matrix.gif); */
+}
+/* mise en forme bouton "acceuil" */
+header nav.logo_button a{
+    color: #850A0A;
+    font-size: 45px;
+    text-decoration: none;
+    font-family: valorax;
+    background-color: black;
+    /* -webkit-text-stroke: 0.5px white; */
+}
+/* centrage des boutons */
+header nav.button_list{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+/* épesseur des boutons */
+header nav.button_list div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* style de la liste de boutons */
+header nav.button_list div a{
+    color: #850A0A;
+    text-decoration: none;
+    font-family: valorax;
+    font-size: 20px;
+}
+/* effet sur les boutons au passage de la souris */
+header nav.button_list div:hover a{
+    color: #fff;
+    transition: 0.3s;
+    background-image: url(img/red_matrix.gif);
+    transition: 0.5s;
+}
+
+/* <<<<<<<<</style pour le footer/>>>>>>>>> */
+footer p{
+    background-color: black;
+    color: #850A0A;
+    padding-left: 15px;
+}
+
+/* <<<<<<<<</style pour le main/>>>>>>>>> */
+/* mise en forme de la section1_acceuil */
+main section.section1_acceuil{
+    width: 100%;
+    height: 600px;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+}
+/* style pour le texte section1 de acceuil*/
+main section.section1_acceuil div.text{
+    /* background-color: yellow; */
+    width: 600px;
+    color: #850A0A;
+    font-size: 25px;
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background-color: #1E1A1A;
+}
+/* style et mise en forme des textes de la section2 de acceuil */
+main section.section2_acceuil div.text2{
+    color: #850A0A;
+    display: flex;
+    justify-content: space-around;
+}
+/* style des blocs metier */
+main section.section2_acceuil div.text2 div.metier{
+    width: 350px;
+    font-family: helvetica;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #1E1A1A;
+}
+/* mise en forme du titre de la section2 de acceuil */
+main section.section2_acceuil h1{
+    text-align: center;
+    color: #850A0A;
+    font-family: valorax;
+    font-size: 25;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
